@@ -43,4 +43,12 @@ sendtow();
 var para=document.createElement("li");
 third=()=>{
     var getparagraphs= document.getElementsByName("p");
+    getparagraphs[2].querySelectorAll("a").length;    
 }
+third();
+display=()=>{
+    var elemento= document.getElementsByTagName("span");  
+    elemento[0].classList.remove("hidden");
+   
+}
+
